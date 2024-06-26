@@ -1,0 +1,154 @@
+body{
+    width:1173px;
+    height: 1323px;
+    background-color :#d9d9d9;
+    padding:100px;   
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    background-color:#680B0B;
+    height:59px;
+    width:699px;
+}
+.ecritheader{
+   color: #d9d9d9;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif'
+}
+main{
+    width: 1173px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: center;;
+
+}
+section{
+    background-color:white;
+    height:700px;
+    width:600px;
+    border:solid;
+    border-radius:20px;
+    margin: 200px;
+   
+    
+     
+  
+}
+.cadre{
+    padding: 0px;
+  
+}
+
+.titre{
+    width:163px;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     
+}  
+
+.trait {
+width:527px;
+height: 50px;
+border-top: none;
+border-left: none;
+border-right: none;
+border-bottom: solid;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+
+ } 
+ .dsvoiture{
+    height:65px;
+    width:131px;
+ }
+ .trait2{
+     
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 10px;
+
+ }
+ .trait3{
+    display: flex;
+    flex-direction: row;
+ 
+    font-size:10px;
+
+ }
+ .titre3{
+    height:31px ;
+    width: 101px;
+    background-color: #d9d9d9;
+    border: solid;
+    border:transparent;
+    flex-direction:center;
+ }
+
+ .titre4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 10px;
+    height: 120px;
+    border:solid;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom:black;
+    height:100px;
+    width: 207px;
+     }
+
+ .titre5{
+    width:246px;
+    height:24px;
+    background-color: #d9d9d9;
+    font-size:15px;  
+ }
+ 
+.titre6{
+    width: 270.81px;
+    height:14px;
+    font-size:12px
+
+}
+.content_car{
+    display:flex;
+    justify-content: space-between;
+}
+.image_content{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.titre7{
+    width:107px;
+    height:28px;
+    font-size:10px;
+    background-color: #d9d9d9;
+    border-radius:50px;
+
+}
+ 
+ @media screen{
+    .header{
+    width:430px;
+    height:56px;
+    }
+    .section{
+        width:430px;
+        height:1633px;
+    }
+
+
+ }
